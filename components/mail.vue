@@ -12,13 +12,13 @@
             <div class="footer">
                 <div class="btn-group" role="group" aria-label="First group">
                     <b-btn @click="enterPass = !enterPass">
-                        <i class="mdi mdi-dark mdi-barcode-scan"></i>
+                        <i class="mdi mdi-dark mdi-barcode-scan">Giải mã</i>
                     </b-btn>
                     <b-btn @click="showReply = !showReply">
-                        <i class="mdi mdi-dark mdi-reply"></i>
+                        <i class="mdi mdi-dark mdi-reply">Trả lời</i>
                     </b-btn>
                     <b-btn @click="deleteEmail">
-                        <i class="mdi mdi-dark mdi-delete"></i>
+                        <i class="mdi mdi-dark mdi-delete">Xóa</i>
                     </b-btn>
                 </div>
             </div>

@@ -12,10 +12,10 @@ import { setContext, getLocation, getRouteData } from './utils'
 import { createStore } from './store.js'
 
 /* Plugins */
-import nuxt_plugin_bootstrapvue_7d3d5692 from 'nuxt_plugin_bootstrapvue_7d3d5692' // Source: ./bootstrap-vue.js
-import nuxt_plugin_axios_3ee88b63 from 'nuxt_plugin_axios_3ee88b63' // Source: ./axios.js
+import nuxt_plugin_bootstrapvue_b98914de from 'nuxt_plugin_bootstrapvue_b98914de' // Source: ./bootstrap-vue.js
+import nuxt_plugin_axios_98cdcd3c from 'nuxt_plugin_axios_98cdcd3c' // Source: ./axios.js
 import nuxt_plugin_components_4e0136ac from 'nuxt_plugin_components_4e0136ac' // Source: ..\\plugins\\components.js (ssr: false)
-import nuxt_plugin_plugin_d565b65c from 'nuxt_plugin_plugin_d565b65c' // Source: ./auth\\plugin.js
+import nuxt_plugin_plugin_45f4f791 from 'nuxt_plugin_plugin_45f4f791' // Source: ./auth\\plugin.js
 
 
 // Component: <no-ssr>
@@ -154,9 +154,9 @@ async function createApp (ssrContext) {
 
   // Plugin execution
   
-  if (typeof nuxt_plugin_bootstrapvue_7d3d5692 === 'function') await nuxt_plugin_bootstrapvue_7d3d5692(app.context, inject)
-  if (typeof nuxt_plugin_axios_3ee88b63 === 'function') await nuxt_plugin_axios_3ee88b63(app.context, inject)
-  if (typeof nuxt_plugin_plugin_d565b65c === 'function') await nuxt_plugin_plugin_d565b65c(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_b98914de === 'function') await nuxt_plugin_bootstrapvue_b98914de(app.context, inject)
+  if (typeof nuxt_plugin_axios_98cdcd3c === 'function') await nuxt_plugin_axios_98cdcd3c(app.context, inject)
+  if (typeof nuxt_plugin_plugin_45f4f791 === 'function') await nuxt_plugin_plugin_45f4f791(app.context, inject)
   
   if (process.browser) { 
     if (typeof nuxt_plugin_components_4e0136ac === 'function') await nuxt_plugin_components_4e0136ac(app.context, inject)

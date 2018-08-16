@@ -14,7 +14,7 @@
                     </nuxt-link>
                     <nuxt-link to="/key" class="nav-link" v-if="$auth.user">
                         <i class="mdi mdi-light mdi-key"></i>
-                        <span class="has-icon-left">PGP Key</span>
+                        <span class="has-icon-left">Quản lý KEY</span>
                     </nuxt-link>
                     <nuxt-link to="/logout" class="nav-link" v-if="$auth.user">
                         <i class="mdi mdi-light mdi-bell"></i>
