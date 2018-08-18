@@ -3,10 +3,10 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _384e6813 = () => import('..\\pages\\logout.vue' /* webpackChunkName: "pages_logout" */).then(m => m.default || m)
-const _97c1b5e4 = () => import('..\\pages\\callback.vue' /* webpackChunkName: "pages_callback" */).then(m => m.default || m)
-const _58132226 = () => import('..\\pages\\key.vue' /* webpackChunkName: "pages_key" */).then(m => m.default || m)
-const _2528cb59 = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
+const _b40c42dc = () => import('..\\pages\\logout.vue' /* webpackChunkName: "pages_logout" */).then(m => m.default || m)
+const _64c6f7cd = () => import('..\\pages\\callback.vue' /* webpackChunkName: "pages_callback" */).then(m => m.default || m)
+const _79745407 = () => import('..\\pages\\key.vue' /* webpackChunkName: "pages_key" */).then(m => m.default || m)
+const _730508fa = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
 
 
 
@@ -68,22 +68,22 @@ export function createRouter () {
     routes: [
 		{
 			path: "/logout",
-			component: _384e6813,
+			component: _b40c42dc,
 			name: "logout"
 		},
 		{
 			path: "/callback",
-			component: _97c1b5e4,
+			component: _64c6f7cd,
 			name: "callback"
 		},
 		{
 			path: "/key",
-			component: _58132226,
+			component: _79745407,
 			name: "key"
 		},
 		{
 			path: "/",
-			component: _2528cb59,
+			component: _730508fa,
 			name: "index"
 		}
     ],
