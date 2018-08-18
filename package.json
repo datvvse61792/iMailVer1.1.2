@@ -1,7 +1,7 @@
 {
-  "name": "iMail",
+  "name": "encrypt",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "Bảo mật email cho người Việt",
   "author": "anhhkse04034@fpt.edu.vn",
   "private": true,
   "scripts": {
